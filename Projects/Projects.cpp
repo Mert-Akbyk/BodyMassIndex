@@ -14,7 +14,7 @@ int main()
 	height = height / 100;
 	index = weight / (float)pow(height, 2);
 
-	cout << "Your body mass indeks: " << fixed << setprecision(2) << index << endl;
+	cout << "Your index: " << fixed << setprecision(2) << index << endl;
 
 	if (index <= 18.5)
 		cout << "Weak" << endl;
